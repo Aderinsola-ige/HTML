@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <link href="style.css" rel="stylesheet">-->  
+    <title>JS DOM</title>
+    <style>
+        .body{
+    font-family: tahoma;
+    color: #444;
+    letter-spacing: 1px;
+background-color: blueviolet;
+}
+#h1,h2{
+    font-weight: normal;
+}
+
+#wrapper{
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0,0.2);
+    padding:0 0 20px ;
+    overflow: hidden;
+    border: 1px solid lightgray;
+}
+
+#page-banner{
+    background: royalblue;
+}
+#book-list{
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0,0.2);
+    padding-left: 30px  ;
+    overflow: hidden;
+    border: 1px solid lightgray;
+    background-color: aquamarine;   
+}
+.title{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.delete{
+    text-align: center
+
+ 
+}
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+<header>
+    <div id="page-banner">
+<h1 class="title">Bookville</h1>
+<p>Book for Bootsters</p>
+    </div>
+</header>
+    </div>
+    <div id="book-list">
+<h2>Books to Read</h2>
+<ul>
+    <li>
+        <span class="name">inferno</span>
+         <span class="delete">delete</span>
+    </li><br>
+    <li>
+        <span class="nam sap">nam sap</span>
+        <span class="delete">delete</span>   
+    </li><br>
+    <li>
+        <span class="name">deadline</span>
+        <span class="delete">delete</span>
+    </li>
+</ul>
+    </div>
+    <div id="search" style="margin:auto; width: 300px;"><button>Add</button>
+        <input type="text">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
